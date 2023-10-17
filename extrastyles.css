@@ -65,7 +65,7 @@
 .contact-form input[type="email"],
 .contact-form input[type="tel"],
 .contact-form textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
 }
