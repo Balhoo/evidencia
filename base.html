@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="extrastyles.css">
+    <title>Página Responsiva con Flexbox</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Squad Game.png" alt="Logo de la empresa" width="200">
+        </div>
+        <div class="titulo">
+            <h1>"WERE WE WIN TOGETHER"</h1>
+        </div>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li class="menu-desplegable">
+                <a href="#">Categorías</a>
+                <ul class="submenu">
+                    <li><a href="#articulo1">Los Inicios del Gaming</a></li>
+                    <br>
+                    <li><a href="#articulo2">La Era de las Arcade</a></li>
+                    <br>
+                    <li><a href="#articulo3">La Revolucion de las Consolas</a></li>
+                    <br>
+                    <li><a href="#articulo4">La Transicion al 3D</a></li>
+                    <br>
+                    <li><a href="#articulo5">El Auge de los Juegos en Linea</a></li>
+                    <br>
+                    <li><a href="#articulo6">Los Deportes Electronicos</a></li>
+                </ul>
+            </li>
+            <li><a href="#contactanos">Contactanos</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contenido">
+            <h2 class="storytitle">UN POCO DE HISTORIA</h2>
+            <article>
+                <h3 id="articulo1">Los Inicios del Gaming</h3>
+                <img class="imagen-derecha" src="MKC2G4BTRVG3FMMTDGNXABXFP4.webp" alt="iniciosgaming" width="200">
+                <p>En los albores del gaming, los videojuegos eran simples pero innovadores. Desde el legendario Pong hasta los juegos de arcade tempranos, este artículo te sumergirá en los primeros días del gaming y cómo comenzó a cautivar a las masas.</p>
+            </article>
+            
+            <article>
+                <h3 id="articulo2">La Era de las Arcade</h3>
+                <img class="imagen-derecha" src="arcades.jpg" alt="iniciosgaming" width="200">
+                <p>En los años 80, las salas de arcade eran el lugar de encuentro para los amantes de los videojuegos. Exploramos cómo juegos icónicos como Pac-Man, Donkey Kong y Street Fighter dominaron la escena arcade y crearon una cultura única de juego competitivo.</p>
+            </article>
+            
+            <article>
+                <h3 id="articulo3">La Revolución de las Consolas</h3>
+                <img class="imagen-derecha" src="revolucion de las consolas.webp" alt="iniciosgaming" width="200">
+                <p>Los años 80 y 90 vieron el auge de las consolas de videojuegos en el hogar. Desde la Nintendo Entertainment System (NES) hasta la Sega Genesis, descubrimos cómo estas plataformas cambiaron la forma en que jugamos y dieron lugar a personajes legendarios como Mario y Sonic.</p>
+            </article>
+            
+            <article>
+                <h3 id="articulo4">La Transición al 3D</h3>
+                <img class="imagen-derecha" src="transicion al 3d.jpg" alt="iniciosgaming" width="200">
+                <p>A finales de los 90 y principios de los 2000, el salto a los gráficos 3D revolucionó la industria. Con la llegada de la PlayStation de Sony y juegos como Super Mario 64, el gaming dio un gran paso hacia la inmersión y la narrativa en 3D.</p>
+            </article>
+            
+            <article id="articulo5">
+                <h3>El Auge de los Juegos en Línea</h3>
+                <img class="imagen-derecha" src="juegos en linea.webp"" alt="iniciosgaming" width="200">
+                <p>Con la expansión de Internet, los juegos en línea se volvieron populares. Exploramos el surgimiento de los MMO (juegos multijugador masivos en línea) como World of Warcraft y cómo los juegos en línea han redefinido la forma en que interactuamos con otros jugadores de todo el mundo.</p>
+            </article>
+            
+            <article>
+                <h3 id="articulo6">Los Deportes Electrónicos (eSports)</h3>
+                <img class="imagen-derecha" src="esports.webp"" alt="iniciosgaming" width="200">
+                <p>Los eSports se han convertido en un fenómeno global, con torneos masivos y premios millonarios. Analizamos el ascenso de los deportes electrónicos, desde los primeros torneos de juegos de lucha hasta las ligas profesionales de hoy en día, como la League of Legends Championship Series (LCS).</p>
+            </article>
+            <article>
+                <div class="containertable">
+                    <div class="containertable">
+                        <div class="cardtable">
+                            <h1>Top 10 Videojuegos Más Importantes</h1>
+
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Posición</th>
+                                        <th>Nombre del Videojuego</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>The Legend of Zelda: Breath of the Wild</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>The Witcher 3: Wild Hunt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Red Dead Redemption 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Super Mario Odyssey</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Dark Souls III</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Grand Theft Auto V</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="cardtable">
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Posición</th>
+                                        <th>Imagen del Videojuego</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><img src="Breathofthewild.jpg" alt="Videojuego 1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><img src="thewitcher.webp" alt="Videojuego 2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><img src="rdr2.jpg" alt="Videojuego 3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><img src="oddisey.jpeg" alt="Videojuego 4"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><img src="ds3.jpeg" alt="Videojuego 5"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><img src="gtav.webp" alt="Videojuego 6"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="container">
+                        <div class="card">
+                            <img src="Breathofthewild.jpg">
+                            <h4>TOP 1</h4>
+                            <p>The Legend of Zelda: Breath of the Wild</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                        <div class="card">
+                            <img src="thewitcher.webp">
+                            <h4>TOP 2</h4>
+                            <p>The Witcher 3: Wild Hunt</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                        <div class="card">
+                            <img src="rdr2.jpg">
+                            <h4>TOP 3</h4>
+                            <p>Red Dead Redemption 2</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                        <div class="card">
+                            <img src="oddisey.jpeg">
+                            <h4>TOP 4</h4>
+                            <p>Super Mario Odyssey</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                        <div class="card">
+                            <img src="ds3.jpeg">
+                            <h4>TOP 5</h4>
+                            <p>Dark Souls III</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                        <div class="card">
+                            <img src="gtav.webp">
+                            <h4>TOP 6</h4>
+                            <p>Grand Theft Auto V</p>
+                            <button class="button">COMPRAR AHORA</button>
+                        </div>
+                    </div>
+                </div>  
+            </article>
+            <article>
+                <h2 id="contactanos">CONTACTANOS</h2>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-container">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo">
+                
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    </div>
+                
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </article>
+        </section>
+        
+        <aside class="barra-lateral">
+            <h2>Acerca de mí</h2>
+            <p>¡Hey, qué onda! Soy un fan de los videojuegos y aquí estoy para llevarnos en un viaje emocionante a través de la historia del gaming. Estamos a punto de sumergirnos en los orígenes humildes de los juegos y descubrir cómo se han convertido en algo tan alucinante como los eSports de hoy en día. ¡Prepárate para la diversión!</p>
+        
+            <h2>Acerca de la página</h2>
+            <p>Bienvenidos a mi rincón dedicado a la asombrosa historia de los videojuegos. A lo largo de los años, hemos visto cómo los videojuegos han pasado de simples píxeles a emocionantes aventuras virtuales que han atrapado la atención de jugadores de todas las edades. Acompáñame mientras exploramos los inicios del gaming y cómo ha evolucionado a lo largo del tiempo, brindando diversión y desafíos a todos los que se unen a la diversión.</p>
+
+            <h2>Lista de Juegos Importantes</h2>
+            <ul class="gamelist">
+                <li>Pong (1972)</li>
+                <li>Space Invaders (1978)</li>
+                <li>Super Mario Bros. (1985)</li>
+                <li>The Legend of Zelda (1986)</li>
+                <li>Tetris (1984)</li>
+                <li>Doom (1993)</li>
+                <li>Final Fantasy VII (1997)</li>
+                <li>Pokémon Red and Blue (1996)</li>
+                <li>The Sims (2000)</li>
+                <li>Halo: Combat Evolved (2001)</li>
+                <li>World of Warcraft (2004)</li>
+                <li>Minecraft (2011)</li>
+                <li>The Witcher 3: Wild Hunt (2015)</li>
+                <li>The Legend of Zelda: Breath of the Wild (2017)</li>
+                <li>Fortnite (2017)</li>
+                <li>Cyberpunk 2077 (2020)</li>
+            </ul>
+        </aside>
+        
+    </main>
+    <footer>
+        <p>COPYRIGHT &copy; 2023 ALAN BERRA GARCIA 1C1-TI43658</p>
+    </footer>
+</body>
+</html>
